@@ -114,8 +114,8 @@ public class TechJobs {
         if (someJobs.isEmpty()) {
             System.out.println("No job listing matches the criteria");
         } else {
+            System.out.println("*****");
             for (HashMap<String, String> jobs : someJobs) {
-                System.out.println("*****");
                 for (String titles : jobs.keySet()) {
                     System.out.println(titles + ": " + jobs.get(titles));
                 }
